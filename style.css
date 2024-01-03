@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.main-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(210, 245, 245);
+
+}
+.container{
+    width: auto;
+    height: 80vh;
+    padding: 20px;
+
+    gap: 10px;
+    display: grid;
+
+    grid-template-columns: 150px 150px 150px 150px 150px 150px 150px 150px;
+    grid-template-rows: 150px 150px 150px 150px 150px;
+    /* background-color: azure; */
+}
+.box{
+    border: 1px solid transparent;
+    background-position: center;
+    background-size: cover;
+    border-radius: 2px;
+}
+.box:first-child{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-image: url(https://source.unsplash.com/random/food);
+}
+.box:nth-child(2){
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-image: url(https://source.unsplash.com/random/flower);
+}
+
+.box:nth-child(3){
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-image: url(https://source.unsplash.com/random/potrait);
+}
+.box:nth-child(4){
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-image: url(https://source.unsplash.com/random/country);
+}
+.box:nth-child(5){
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-image: url(https://source.unsplash.com/random/fun);
+}
+.box:nth-child(6){
+    grid-column-start: 7;
+    grid-column-end: 8;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-image: url(https://source.unsplash.com/random/architecture);
+}
+.box:nth-child(7){
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-image: url(https://source.unsplash.com/random/phone);
+}
+.box:nth-child(8){
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    background-image: url(https://source.unsplash.com/random/HD);
+}
+.box:nth-child(9){
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-image: url(https://source.unsplash.com/random/forest);
+}
+.box:nth-child(10){
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    background-image: url(https://source.unsplash.com/random/animal);
+}
+.box:nth-child(11){
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-image: url(https://source.unsplash.com/random/street);
+}
+.box:nth-child(12){
+    grid-column-start: 7;
+    grid-column-end: 8;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background-image: url(https://source.unsplash.com/random/river);
+}
+.box:nth-child(13){
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background-image: url(https://source.unsplash.com/random/mountain);
+}
+.box:nth-child(14){
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background-image: url(https://source.unsplash.com/random/sky);
+}
+.box:nth-child(15){
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background-image: url(https://source.unsplash.com/random/beauty);
+}
+.box:nth-child(16){
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    background-image: url(https://source.unsplash.com/random/climate);
+}
+.box:nth-child(17){
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    background-image: url(https://source.unsplash.com/random/photo);
+}
+.box:nth-child(18){
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    background-image: url(https://source.unsplash.com/random/steet);
+}
+.box:nth-child(19){
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    background-image: url(https://source.unsplash.com/random/child);
+}
+.box:nth-child(20){
+    grid-column-start: 7;
+    grid-column-end: 8;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    background-image: url(https://source.unsplash.com/random/nature);
+}
